@@ -24,12 +24,11 @@ export default function Home() {
     <div>
       <Head>
         <title>Fuck Standardisation</title>
-        <link rel="icon" href="/dog.png" />
+        <link rel="icon" href="/dog.jpg" />
       </Head>
 
       <main className={styles.main}>
-        <img src="/dog.png" className={styles.icon} />
-        <h3>Fuck Standardisation</h3>
+        <img src="/dog.jpg" className={styles.icon} />
         <h4>Because we were destined for more than just simple regurgitation</h4>
         <form onSubmit={onSubmit}>
           <input
